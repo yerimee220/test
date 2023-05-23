@@ -1,0 +1,12 @@
+import com.my.asia.Korea; 
+
+public class CountryTest {
+
+	public static void main(String[] args) {
+		com.my.asia.Korea k;
+		k = new com.my.asia.Korea(); 
+
+		Korea k1 = new Korea();
+	}
+
+}

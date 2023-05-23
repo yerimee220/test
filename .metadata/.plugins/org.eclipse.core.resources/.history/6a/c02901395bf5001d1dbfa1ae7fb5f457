@@ -1,0 +1,13 @@
+
+public class TV {
+	public boolean power; 
+	
+	public void powerOn() {
+		power = true; 
+	}
+	
+	}
+
+
+	
+

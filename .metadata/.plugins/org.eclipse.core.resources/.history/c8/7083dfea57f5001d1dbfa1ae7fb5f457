@@ -1,0 +1,55 @@
+
+public class TV {
+//재료 - 전원(), 채널, 음량
+	boolean power;
+	int channel = 0; 
+	int volume = 0;
+    
+	
+	/**
+	 * TV를 켠다
+	 */
+	public void powerOn() {
+		power = true;
+	}
+	
+	/**
+	 * TV를 끈다 
+	 */
+	public void powerOff() {
+		if (power = false)
+		System.out.println("전원이 꺼졌습니다");
+	}
+	
+	/**
+	 * 티비가 켜져있다면
+	 * @return true
+	 */
+	public boolean isPower() {
+		if(power==true) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	/** 티비가 켜져있다면 
+	 * 티비의 정보를 출력한다
+	 */
+	public void print() {
+		if(power==true) {
+		System.out.println("채널은"+channel+"번,\n"+"음량은"+volume);	
+		}
+	}
+	
+
+	
+	
+	
+	
+	
+	}
+
+
+	
+

@@ -1,0 +1,81 @@
+import java.util.Scanner;
+
+public class Arr {
+	public static void main(String[] args) {
+		
+			
+//		Scanner sc = new Scanner(System.in);
+//		String[]subject = {"국어","영어","수학"};
+//		subject = new String[]{"KOR","ENG","MAT"};
+//		
+//		int subjectSize = subject.length;
+//		
+//		int [][]studentArr; //학생수 5, 과목수 3
+//		studentArr = new int[5][subjectSize];
+//		int studentSize = studentArr.length; //학생수
+//		
+//		for(int studentCnt=0; studentCnt<studentSize; studentCnt++) {
+//			int size = studentArr[studentCnt].length;
+//			for(int i=0; i<size; i++) {
+//				System.out.print(subject[i]+"점수:");
+//				studentArr[studentCnt][i] = Integer.parseInt(sc.nextLine());
+//			}
+//			
+//			int totalScore = 0;//총점
+//			for(int i=0; i<size; i++) {
+//				totalScore += studentArr[studentCnt][i];//scoreArr[i]; // totalScore = totalScore+scoreArr[i];
+//			}
+//			System.out.println("총점:" + totalScore);
+//			System.out.println("평균:" + (float)totalScore/size);
+//		}
+//		
+//		//과목별 평균
+//		for(int i=0; i<subjectSize; i++) {
+//			int totalScore = 0;
+//			for(int studentCnt=0; studentCnt<studentSize; studentCnt++) {
+//				totalScore += studentArr[studentCnt][i];
+//			}
+//			System.out.println(subject[i]+"평균:" + (float)totalScore / studentSize);
+//		}
+//					
+//		//[배열] 출생년도별 띠 출력하기 
+//
+//		System.out.print("출생년도를 입력하세요:");
+//		int birthYear = Integer.parseInt(sc.nextLine());		
+//		int io = birthYear%12;
+//		String [] anim = {"원숭이","닭","개","돼지","쥐","소","호랑이","토끼","용","뱀","말","양"};
+//		System.out.println(anim[io]);		
+		
+		//이해가 안가니까 집에가서 다시해보기 
+//		//배열 안에 있는 숫자가 몇번씩 출현하는지 코딩하기 
+//		int []numArr = {1,10,3,2,1,2,2,5,6,3,2,8,7,6,9};
+//		int []result = new int[10]; // [0]는 1의 출현횟수저장공간, [1]은 2의 출현횟수저장공간
+//		for (int i = 0; i < numArr.length; i++) {
+//			result[numArr[i]-1]++;
+//		}
+//		for (int i = 0; i < result.length; i++) {
+//			System.out.println((i+1) + "의 출현횟수: " + result[i] + "회");
+//		}
+//
+//		
+		
+		int [] numArr= new int[] {7, 3, 6, 10, 2};
+		//0번 인덱스에 값을 맥스에 넣어주기
+		int []max = new int[1]; //최댓값
+		int i=0; 
+		for (i =0; i<numArr.length; i++);
+			max[0]=numArr[0];
+				if(max[0]>numArr[i]) {
+					continue;
+				}else if(max[0]<numArr[i]) {
+					max[0]=numArr[i];
+				}
+				System.out.println("최댓갑:"+max[0]);
+	
+		
+		
+		
+		
+		
+	}
+}

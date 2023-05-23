@@ -1,0 +1,28 @@
+//자바빈 만들기 
+
+package com.my.customer.dto;
+
+public class Customer {
+	private String id; 
+	private String pwd; 
+	private String name; 
+	public void setId(String id) {//setter 메서드
+		this.id=id;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setPwd() {
+		this.pwd = pwd; 
+	}
+	public String getPwd() {
+		return pwd;
+	}
+	public void setName() {
+		this.name = name; 
+	}
+	public String getName() {
+		return name;
+	}
+	
+}

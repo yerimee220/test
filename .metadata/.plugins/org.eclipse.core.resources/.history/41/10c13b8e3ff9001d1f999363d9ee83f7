@@ -1,0 +1,5 @@
+package com.my.customer.dto;
+
+public class Customer {
+
+}

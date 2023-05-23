@@ -1,0 +1,19 @@
+class A {
+	int i; //non-static 변수 | instance 변수 (객체지향프로그램에서는 인스턴스와 객체라는 용어를 같이 봄)
+	static int si; //static변수 | class 변수 (static 변수는 메서드 영역에 기억된다, static변수는 객체와 무관한 변수이다) 
+	void m() {
+		
+	}
+	static void sm() {
+		
+	}
+}
+public class StaticTest {
+	public static void main(String[] args) {
+		A.si++;
+		System.out.println(A.si);
+		
+
+	}
+
+}

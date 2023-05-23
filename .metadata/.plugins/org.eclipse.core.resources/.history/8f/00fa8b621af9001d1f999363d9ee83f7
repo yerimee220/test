@@ -1,0 +1,12 @@
+class F{
+	final int i=10; // final int i; 오류이유: 초기값이 없어서 final 할 수 없음
+}
+public class FinalTest {
+
+	public static void main(String[] args) {
+		F f = new F();
+		System.out.println(f.i);
+		//f.i++; final 변수는 값을 변경할 수 없기 때문에 오류 발생 
+	}
+
+}

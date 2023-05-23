@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("년도를 입력하세요:");
+		
+		int year = Integer.parseInt(sc.nextLine());
+		
+		if(year%2==0) {
+			System.out.println("짝수해입니다");
+		}
+		else {
+			System.out.println("홀수해입니다");
+		}
+		
+	}
+
+}

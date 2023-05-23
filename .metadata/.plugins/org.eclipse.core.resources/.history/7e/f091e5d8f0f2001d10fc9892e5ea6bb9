@@ -1,0 +1,50 @@
+public class Condition {
+	public static void main(String[] args) {
+		java.util.Scanner sc;
+		sc = new java.util.Scanner(System.in);
+		//if
+		if(true) {}
+		System.out.println("년도를 입력하세요");
+		int year = Integer.parseInt(sc.nextLine()); 
+		//String > int 변환매서드 사용해야 함: int value = integer.parseInt(String);
+		
+		if(year%2==0) {
+			System.out.println("짝수해입니다.");
+		} //짝수 년도 입력시만 결과 있고, 나머지는 결과값 (없음)
+		
+		//if else
+		System.out.println("시간을 입력하세요");
+		int hour = Integer.parseInt(sc.nextLine());
+
+		if(hour<12) {
+			System.out.println("오전");
+		}
+		else {
+			System.out.println("오후");
+		} 
+		
+		//if elseif 
+		System.out.println("월을 입력하세요");
+	    int month = Integer.parseInt(sc.nextLine());
+		
+		//1분기: 1~3
+		//2분기: 4~6
+		//3분기: 7~9
+		//4분기: 10~12 
+		if(month >=1 && month<=3) {
+			System.out.println("1분기");
+		}else if(month <=6) {
+			System.out.println("2분기");
+		}else if(month <=9) {
+			System.out.println("3분기");
+		}else if(month <=12) {
+			System.out.println("4분기");
+		}else {
+			System.out.println("잘못입력하셨습니다.");
+		}
+
+		
+		//switch 
+	}
+
+}

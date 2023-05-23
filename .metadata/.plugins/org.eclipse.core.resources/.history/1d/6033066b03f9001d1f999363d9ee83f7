@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		
+//		짝수해, 홀수해 구하기
+//		System.out.println("년도를 입력하세요:");
+//		
+//		int year = Integer.parseInt(sc.nextLine());
+//		
+//		if(year%2==0) {
+//			System.out.println("짝수해입니다");
+//		}else {
+//			System.out.println("홀수해입니다");
+//		}
+		
+//		오전, 오후 구하기 
+//		System.out.println("시간을 입력하세요:");
+//		int hour = Integer.parseInt(sc.nextLine());
+//		
+//		if (hour<12) {
+//			System.out.println("오전입니다");
+//		}else {
+//			System.out.println("오후입니다");
+//		}
+		
+//		분기 구별하기
+//		System.out.println("월을 입력하세요");
+//		int month = Integer.parseInt(sc.nextLine());
+//		
+//		if(month<=3) {
+//			System.out.println("1분기");
+//		}else if (month<=6) {
+//			System.out.println("2분기");
+//		}else if (month<=9) {
+//			System.out.println("3분기");
+//		}else if (month<=12) {
+//			System.out.println("4분기");
+//		}else {
+//			System.out.println("잘못입력하셨습니다");
+//		}
+		
+	}
+
+}

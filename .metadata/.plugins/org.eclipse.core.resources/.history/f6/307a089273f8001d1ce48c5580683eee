@@ -1,0 +1,34 @@
+class R2{
+	int width;
+	int height;
+	double area; 
+	R2(int w, int h){
+		width = w;
+		height = h; 
+		make();
+	}
+
+	void make (int width, int height) {
+		area = width * height;
+	}
+	
+	void print () {
+		System.out.println("사각형의 면적은"+ area +"입니다");
+	}
+	
+	
+public class ConstructorTest {
+	public static void main(String[] args) {
+		R2 r = new R2(); 
+		r.width=3; //가로
+		r.height=4; //세로 
+		r.make(); // 면적을 계산한다
+		r.print(); //"가로 5, 세로5인 사각형의 면적은 25.0입니다" 출력된다
+
+		R2 r2 = new R2(6,7); 
+		r2.print(); //"가로6, 세로7인 사각형의 면적은 42.0입니다" 출력된다
+		// 생성자 : 사용자입장에서 간단하게 객체를 생성하고, 객체 내용을 초기화 할 수 있기에 사용
+		//생성자는 return 타입이 없으면서 class와 이름이 같다 
+	}
+
+}

@@ -1,0 +1,15 @@
+public class Condition {
+	public static void main(String[] args) {
+		//if
+		if(true) {}
+		int year=2023;
+		if(year%2==0) {
+			System.out.println("짝수해입니다.");
+		}
+		//if else
+		//if elseif 
+		
+		//switch 
+	}
+
+}

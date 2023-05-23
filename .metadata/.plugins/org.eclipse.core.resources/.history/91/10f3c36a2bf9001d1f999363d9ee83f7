@@ -1,0 +1,11 @@
+package com.my.asia;
+
+public class Korea {
+	public String capital; 
+	String language; 
+	private int poluation; 
+	
+	public static void main(String[] args) {
+	}
+
+}
